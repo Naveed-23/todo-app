@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-text {
+    background: linear-gradient(to right, #7F00FF, #1E90FF); /* Purple to Dark Blue */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .gradient-bg {
+    background: linear-gradient(to right, #7F00FF, #1E90FF); /* Purple to Dark Blue */
+  }
+
+
+  
+  
