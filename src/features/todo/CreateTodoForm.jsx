@@ -56,7 +56,7 @@ export default function CreateTodoForm({ onCloseModal }){
                     {...register('description')}
                 ></textarea>
             </div>
-            <div className="space-x-2">
+            <div className="space-x-2 flex justify-end lg:mr-6">
                 <FormButton>Add Todo</FormButton>
                 <FormButton type="reset" onClick={onCloseModal}>Cancel</FormButton>
             </div>
