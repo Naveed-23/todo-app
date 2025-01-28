@@ -15,7 +15,7 @@ export default function Header() {
         <div className="bg-gray-950 text-white border-b border-gray-800 shadow-lg">
           <div className="flex justify-between items-center px-6 lg:px-72 py-5">
             <Heading size={'text-2xl md:text-5xl'}>
-              <Link to="/">NH TODOS</Link>
+              <Link to="/">Task Sphere</Link>
             </Heading>
             <div className="lg:hidden">
               <button onClick={toggleMenu} className="text-white focus:outline-none">
